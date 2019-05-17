@@ -3,15 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "dotenv": "^8.0.0",
     "konva": "^3.2.5",
+    "mongodb": "^3.2.4",
+    "mongoose": "^5.5.7",
     "react": "^16.8.6",
     "react-cursor-position": "^3.0.3",
     "react-dom": "^16.8.6",
     "react-konva": "^16.8.6",
     "react-scripts": "3.0.0",
-    "socketio": "^1.0.0",
-    "mongodb": "^3.2.4",
-    "mongoose": "^5.5.7"
+    "socketio": "^1.0.0"
   },
   "scripts": {
     "db": "node server.js",

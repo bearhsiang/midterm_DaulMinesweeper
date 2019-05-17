@@ -1,8 +1,8 @@
 import React from 'react';
 import {Component} from 'react';
-import ScoreBoard from './ScoreBoard'
+import ScoreBoard from '../component/ScoreBoard'
 import Game from './Game'
-import OnlineList from './OnlineList'
+import OnlineList from '../component/OnlineList'
 class Main extends Component{
 	render(){
 		return(

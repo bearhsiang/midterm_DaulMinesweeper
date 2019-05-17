@@ -1,6 +1,6 @@
 import React from 'react';
 import {Component} from 'react';
-import GameMap from './GameMap'
+import GameMap from '../component/GameMap'
 import ReactCursorPosition from 'react-cursor-position';
 class Game extends Component{
 	render(){

@@ -1,15 +1,17 @@
 import React from 'react';
 import {Component} from 'react';
-import './Page.css'
-import Header from './Header';
+import '../styles/Page.css'
+import Header from '../component/Header';
 import Main from './Main';
-import Footer from './Footer';
+import Footer from '../component/Footer';
 import io from 'socket.io-client';
-import Login from './Login'
+import Login from '../component/Login'
+
+const END_POINT = 'http://localhost:5555'
 class Page extends Component {
 	constructor(props){
 		super(props);
-		this.endpoint = 'http://localhost:5555/';
+		this.endpoint = END_POINT;
 		this.socket = io.connect(this.endpoint);
 		this.state = {
 			name: "",
