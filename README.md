@@ -6,7 +6,7 @@ an online application for two players to play minesweeper game together.
 ## How to use?
 
 * Clone the repository
-* use `npm install` to install nesesary packages
+* use `npm install` to install necessary packages
 * use `npm start` to run web application
 * use `npm run db` to run backend server
 
@@ -36,6 +36,6 @@ the project includes two parts:
 * Outline design, all the implementation excluding the packages mensioned above.
 
 ## Reflection
-* Node has lots of useful packages available and make the implimentation more convenient.
+* Node has lots of useful packages available and make the implementation more convenient.
 * Some built-in object (e.g. ref) are also useful, we sould get more familiar with them.
-* Outline design is diffacult too!!!
+* Outline design is difficult too!!!
